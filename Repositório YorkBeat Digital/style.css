@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    font-family: "Madimi One", sans-serif;
+    text-decoration: none;
+    font-style: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #1c1c28;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 180px;
+    border-bottom: 1px solid #1c1c28;
+    box-shadow: 0px 1px 3px #000000;
+    background-color: #ff8621;
+}
+
+.logo{
+    height: 160px;
+    width: 160px;
+    margin-left: 40px;
+}
+
+.opcoes{
+    display: flex;
+    gap: 5rem;
+}
+
+ul{
+    font-size: 20px;
+    font-weight: 600;
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+}
+
+li{
+    color: #1c1c28;   
+    text-shadow: 1px 1px 1px white;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+li:hover{
+    transform: scale(1.2);
+}
+
+.aplicativo{
+    width: 160px;
+    height: 50px;
+    margin-top: -10;
+    font-size: 20px;
+    background-color: #a45833;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: 400;
+    color: #5c321d;
+    border: none;
+    margin-right: 40px;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+.aplicativo:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+main{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+}
+
+aside{
+    margin: 80px;
+}
+
+.apresentacao{
+    font-size: 38px;
+    color: #ff8621;  
+    text-shadow: 2px 2px 2px white;
+}
+.resumo{
+    font-size: 23px;
+    color: #ff8621;  
+    text-shadow: 1px 1px 1px white;
+    line-height: 30px;
+}
+
+.logo2{
+    width: 750px;
+}
+
+footer{
+    height: 150px;
+    border-bottom: 1px solid #1c1c28;
+    box-shadow: 0px 1px 3px #000000;
+    background-color: #ff8621;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 20px;
+    text-decoration: underline;
+    margin-bottom: 70px;
+}
+
+i{
+    height: 45px;
+    width: 45px;
+    gap: 1,5rem;
+    margin-right: 38px;
+}
